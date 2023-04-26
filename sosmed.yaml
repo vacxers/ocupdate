@@ -1,1 +1,18 @@
+proxies:
+- name: SG Howdy
+  type: trojan
+  server: sg1-trojan.bonds.id
+  port: 443
+  password: 998c5ec0-e3af-11ed-ba6d-1239d0255272
+  sni: chief-cdn.storage.googleapis.com
+  skip-cert-verify: true
+  udp: true
 
+- name: SG Howdy2
+  type: trojan
+  server: sg1-trojan.bonds.id
+  port: 443
+  password: ef567a30-e331-11ed-a8a3-1239d0255272
+  sni: chief-cdn.storage.googleapis.com
+  skip-cert-verify: true
+  udp: true
